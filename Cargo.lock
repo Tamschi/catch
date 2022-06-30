@@ -26,6 +26,7 @@ version = "0.0.1"
 dependencies = [
  "cargo-husky",
  "git_info",
+ "this-is-fine",
  "version-sync",
  "wasm-bindgen-test",
 ]
@@ -193,6 +194,12 @@ dependencies = [
  "quote",
  "unicode-xid",
 ]
+
+[[package]]
+name = "this-is-fine"
+version = "0.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2e922c27d74e8b47199e9a701eadf67135ae4f605a7eef123757ad500ce1c278"
 
 [[package]]
 name = "tinyvec"
